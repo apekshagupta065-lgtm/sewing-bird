@@ -1,0 +1,6 @@
+{
+  "name": "The Sewing Bird | Children's Clothing Catalogue",
+  "description": "Premium children's fashion catalogue showcasing handcrafted cotton wear, playful dresses, co-ord sets, and everyday outfits with photo management and WhatsApp enquiries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

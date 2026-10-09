@@ -1,0 +1,50 @@
+{
+  "brandName": "The Sewing Bird",
+  "secondaryName": "Children's Clothing Boutique",
+  "tagline": "Stylish Clothing for Little Angels",
+  "announcements": [
+    "✨ Stylish Clothing for Little Angels",
+    "🌿 Handcrafted with 100% breathable organic cotton & non-toxic dyes",
+    "💬 Direct WhatsApp enquiries & custom size tailoring available",
+    "🌸 Made for tiny moments and cherished memories"
+  ],
+  "announcementIntervalSec": 5,
+  "whatsappNumber": "+91 90221 75336",
+  "whatsappPrefillMessage": "Hello {brandName}! I would like to enquire about the {productName} (Ref: {sku}){sizeText}{colourText}. Could you share availability and ordering details? Link: {productUrl}",
+  "enquiryEmail": "thesewingbird11@gmail.com",
+  "currencySymbol": "",
+  "catalogueMode": "enquiry",
+  "enablePrices": true,
+  "instagramHandle": "@thesewingbird",
+  "supportPhone": "+91 90221 75336",
+  "aboutStory": {
+    "heroTitle": "Crafted for Soft Mornings & Barefoot Adventures",
+    "subtitle": "From delicate smocking to heirloom cotton stitches, we believe childhood clothes should feel like a gentle hug.",
+    "paragraphs": [
+      "The Sewing Bird creates thoughtful children's clothing that bridges the charm of vintage heirlooms with the carefree ease of modern play.",
+      "Every dress, romper, and co-ord set is cut from premium organic cotton, airy double gauze, and washed linens. We obsess over the quiet details—flat-felled French seams that never scratch tender skin, coconut shell buttons, and soft elastic bands that allow curious minds to climb, twirl, and explore unhindered."
+    ],
+    "values": [
+      {
+        "title": "100% Breathable Organic Cotton",
+        "description": "Naturally hypoallergenic, skin-kind, and pre-washed for zero shrinkage and butter-soft touch.",
+        "icon": "Feather"
+      },
+      {
+        "title": "Heirloom Handcrafting",
+        "description": "Tender hand-smocking, reinforced knees, and French seams designed to be passed down through siblings.",
+        "icon": "Heart"
+      },
+      {
+        "title": "Play-Tested Comfort",
+        "description": "Generous cuts that accommodate diapers and dynamic movement without pinch points.",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Conscious & Sustainable",
+        "description": "Zero plastic packaging, plant-based dyes, and zero-waste fabric offcut recycling.",
+        "icon": "Leaf"
+      }
+    ]
+  }
+}

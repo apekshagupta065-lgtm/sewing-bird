@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Definitions for text paths -->
+  <defs>
+    <!-- Top arc path for "T H E" -->
+    <path id="topArc" d="M 125,250 A 125,125 0 0,1 375,250" fill="none" />
+    <!-- Bottom arc path for "S E W I N G   B I R D" -->
+    <path id="bottomArc" d="M 100,250 A 150,150 0 0,0 400,250" fill="none" />
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Background circle (clean ivory) -->
+  <circle cx="250" cy="250" r="240" fill="#FAF8F5" />
+
+  <!-- Outer main circle -->
+  <circle cx="250" cy="250" r="220" fill="none" stroke="#1F2421" stroke-width="6" />
+
+  <!-- Left curved accent line -->
+  <path d="M 68,170 A 195,195 0 0,0 68,330" fill="none" stroke="#1F2421" stroke-width="7" stroke-linecap="round" />
+
+  <!-- Right curved accent line -->
+  <path d="M 432,170 A 195,195 0 0,1 432,330" fill="none" stroke="#1F2421" stroke-width="7" stroke-linecap="round" />
+
+  <!-- Inner circle -->
+  <circle cx="250" cy="250" r="162" fill="none" stroke="#1F2421" stroke-width="5" />
+
+  <!-- Top Text: "T H E" -->
+  <text font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="28" font-weight="800" fill="#1F2421" letter-spacing="14" text-anchor="middle">
+    <textPath href="#topArc" startOffset="50%">THE</textPath>
+  </text>
+
+  <!-- Bottom Text: "S E W I N G   B I R D" -->
+  <text font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="28" font-weight="800" fill="#1F2421" letter-spacing="12" text-anchor="middle">
+    <textPath href="#bottomArc" startOffset="50%">SEWING BIRD</textPath>
+  </text>
+
+  <!-- Center Turquoise Bird Silhouette -->
+  <g transform="translate(195, 205)">
+    <!-- Bird body & head & wing -->
+    <path d="M 42,22 
+             C 42,22 25,28 12,38 
+             C 0,48 5,68 18,78 
+             C 32,88 65,92 88,78 
+             C 105,68 108,52 108,52 
+             L 118,34 
+             C 118,34 98,44 88,44 
+             C 76,44 72,36 68,26 
+             C 62,12 50,12 42,22 Z" 
+          fill="#3DB5C3" />
+    <!-- Beak -->
+    <polygon points="14,40 2,47 16,52" fill="#3DB5C3" />
+    <!-- Wing detail cutout line / feather overlay -->
+    <path d="M 52,48 C 65,48 85,42 98,34 L 75,64 C 62,68 52,62 52,48 Z" fill="#329DAA" opacity="0.4" />
+    <!-- Bird eye -->
+    <circle cx="28" cy="42" r="4.2" fill="#1F2421" />
+  </g>
+</svg>
